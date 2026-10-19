@@ -238,7 +238,7 @@ if ($action === 'list') {
     <?php if ($isEdit): ?>
         <section class="admin-card" style="margin-top: var(--space-6)">
             <div class="admin-card__header">
-                <h2>Screenshots</h2>
+                <h2>Screenshots of the Projects</h2>
             </div>
             <div class="admin-upload-list"><?php foreach ($gallery as $image): ?>
                     <div class="admin-upload-item"><img src="../<?= admin_escape($image['image']) ?>"
