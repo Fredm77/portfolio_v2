@@ -233,7 +233,7 @@ $created_year = date('Y', strtotime($project['created_at']));
                 
                 <?php if (!empty($project['role'])): ?>
                 <div class="sidebar-item">
-                    <div class="sidebar-label">Role</div>
+                    <div class="sidebar-label">Roles</div>
                     <div class="sidebar-value"><?php echo htmlspecialchars($project['role'], ENT_QUOTES, 'UTF-8'); ?></div>
                 </div>
                 <?php endif; ?>
